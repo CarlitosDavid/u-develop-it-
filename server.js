@@ -109,6 +109,7 @@ const db = mysql.createConnection(
 //     console.log(result);
 // });
 
+
 // Create a candidate 
 const sql = `INSERT INTO candidates (id, first_name, last_name, industry_connected)
     VALUES (?,?,?,?)`;
